@@ -1,6 +1,8 @@
 <h1 align="center">Trading AI using TensorFlow</h1>
 
-<p>Welcome to my repository dedicated to explain the construction of a Trading code using Deep-Learning!</p>
+<p>Welcome to my repository dedicated to explain the construction of a Trading code using Deep-Learning!
+
+</p>
 
 
 
