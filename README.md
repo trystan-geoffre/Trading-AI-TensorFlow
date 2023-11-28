@@ -14,10 +14,73 @@ After writing codes for Algorithmic Trading <a href="https://github.com/trystan-
 <h2 align ="center">🎯 Model review 🎯 </h2>
 
 
-  The model has undergone training S&P 500 historical data which has been normalized in order to reduce the skewness of it. The model uses Bidirectional LSTM (Long Short Term Memory) layers. Leveraging Bidirectional LSTM (Long Short Term Memory) layers proves advantageous for Time Series forecasting. These layers possess the unique capability to capture context in both the forward and backward directions, significantly enhancing pattern recognition. Furthermore, the model incorporates essential components such as a learning rate scheduler, checkpoints, and an early stopping mechanism. Checkpoints permit to save the best-performing model based on validation loss. Early stopping is implemented to prevent overfitting, optimizing the model's generalization ability. The learning rate scheduler dynamically fine-tunes the learning rate throughout the training process, contributing to the model's adaptability and performance refinement.
+ The model has been trained on historical S&P 500 data, which was normalized to mitigate skewness. The model uses Bidirectional LSTM (Long Short Term Memory) layers. Leveraging Bidirectional LSTM (Long Short Term Memory) layers proves advantageous for Time Series forecasting. These layers possess the unique capability to capture context in both the forward and backward directions, significantly enhancing pattern recognition. Furthermore, the model incorporates essential components such as a learning rate scheduler, checkpoints, and an early stopping mechanism. Checkpoints permit to save the best-performing model based on validation loss. Early stopping is implemented to prevent overfitting, optimizing the model's generalization ability. The learning rate scheduler dynamically fine-tunes the learning rate throughout the training process, contributing to the model's adaptability and performance refinement.
+
+---
 
 
+<h2 align="center">🔎 Repository Overview 🔍</h2>
 
+<br>
+In the construction of our Trading AI we have 4steps:
+
+<br>
+
+<details>
+  <h2 align="center">📜 Get Data from S&P 500 📜</h2>
+  
+  <summary> 📜 Get Data from S&P 500 📜</summary> 
+
+  <p>
+
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center">♟️ Model Strategy ♟️</h2>
+  
+  <summary> ♟️ Model Strategy ♟️</summary> 
+
+  <p>
+
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center">🕸️ Testing the Model 🕸️</h2>
+  
+  <summary> 🕸️ Testing the Model 🕸️</summary> 
+
+  <p>
+
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center">⚡️ Lunching the model to real-time Traiding< ⚡️/h2>
+  
+  <summary>⚡️ Lunching the model to real-time Traiding< ⚡️</summary> 
+
+  <p>
+
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
+
+<br>
 
 
 
