@@ -23,7 +23,6 @@ After writing codes for Algorithmic Trading <a href="https://github.com/trystan-
 
 <h2 align="center">🔎 Repository Overview 🔍</h2>
 
-<br>
 In the construction of our Trading AI we have 4steps:
 
 <br>
