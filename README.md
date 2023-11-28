@@ -69,10 +69,7 @@ In the "Test_Model" script, we initiate the process by downloading time series d
 <br>
 
 <details>
-    <h2 align="center">🕸️ Testing the Model 🕸️</h2>
-  
-  <summary> 🕸️ Testing the Model 🕸️</summary> 
-  <h2 align="center"> ⚡️ Lunching the model to real-time Traiding< ⚡️/h2>
+    <h2 align="center"> ⚡️ Lunching the model to real-time Traiding< ⚡️/h2>
   
   <summary> ⚡️ Lunching the model to real-time Traiding< ⚡️</summary> 
 <p>
