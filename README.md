@@ -10,7 +10,7 @@
 
 <h2 align="center">🌅 Journey Highlights 🌅</h2>
 <p>
-After writing codes for Algorithmic Trading <a href="https://github.com/trystan-geoffre/Algorithmic-Trading">(Project Link)</a> and Deep Learning codes using TensorFlow <a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow">(Project Link)</a> I wanted to combine both in order to build a powerfull tool. By merging these two disciplines, I aim to create a synergistic tool that can leverage historical market data, recognize complex patterns, and adapt dynamically to evolving market conditions. This fusion allows for a more robust and adaptive trading system, where the algorithms can learn from data patterns, optimize decision-making processes, and potentially uncover hidden opportunities that may be challenging for traditional strategies to discern.
+After writing codes for Algorithmic Trading and Deep Learning codes using TensorFlow <a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow">(Project Link)</a> I wanted to combine both in order to build a powerfull tool. By merging these two disciplines, I aim to create a synergistic tool that can leverage historical market data, recognize complex patterns, and adapt dynamically to evolving market conditions. This fusion allows for a more robust and adaptive trading system, where the algorithms can learn from data patterns, optimize decision-making processes, and potentially uncover hidden opportunities that may be challenging for traditional strategies to discern.
   
 
 <h2 align ="center">🎯 Model review 🎯 </h2>
