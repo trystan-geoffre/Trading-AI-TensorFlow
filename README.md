@@ -4,6 +4,7 @@
 
 Welcome to my repository dedicated to explain the construction of a Trading code using Deep-Learning!
 
+
 <br>
 
 <h2 align="center">🌅 Journey Highlights 🌅</h2>
