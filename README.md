@@ -26,7 +26,7 @@ After writing codes for Algorithmic Trading <a href="https://github.com/trystan-
 <br>
 In the construction of our Trading AI we have 4steps:
 
-<br>
+<br><br>
 
 <details>
   <h2 align="center">📜 Get Data from S&P 500 📜</h2>
