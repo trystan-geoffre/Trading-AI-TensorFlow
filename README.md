@@ -80,6 +80,6 @@ The code "Live_Trading.py" begins by loading the pre-trained deep learning model
 
 <br>
 
-This is the end of this depository on Trading AI using TensorFlow. If you want to see more complexe projects on Trading I would invite invite you to see <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App">Full Stack Trading App</a>
+This marks the conclusion of the repository on Trading AI utilizing TensorFlow. For those interested in exploring more complex project within the realm of Trading, I would invite you to visit the <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App">Full Stack Trading App repository</a> for a broader perspective and comprehensive insights.
 
   
