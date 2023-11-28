@@ -69,9 +69,9 @@ In the "Test_Model" script, we initiate the process by downloading time series d
 <br>
 
 <details>
-  <h2 align="center">⚡️ Lunching the model to real-time Traiding ⚡️ </h2>
+  <h2 align="center">⚡️ Lunching the model for real-time Trading ⚡️ </h2>
   
-  <summary> ⚡️ Lunching the model to real-time Traiding ⚡️</summary> 
+  <summary> ⚡️ Lunching the model for real-time Trading ⚡️</summary> 
 <p>
 The code "Live_Trading.py" begins by loading the pre-trained deep learning model ("mymodel.h5") to make predictions. The trading strategy is based on these predictions, with specific conditions triggering buy and sell orders. Additionally, the script includes backtesting functionality, connecting to the Alpaca API for live trading, and a schedule for running the trading strategy at regular intervals. The main execution section initiates live trading with predefined trading pairs like AAPL, SPY, MSFT, and META. The script is designed to operate continuously, running the trading strategy based on the specified time frame. <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/blob/master/Live_Trading.py"> Code Link</a>
   </p>
