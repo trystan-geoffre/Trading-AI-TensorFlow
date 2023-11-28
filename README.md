@@ -23,7 +23,7 @@ After writing codes for Algorithmic Trading <a href="https://github.com/trystan-
 
 <h2 align="center">🔎 Repository Overview 🔍</h2>
 
-In the development of our Trading AI, we follow a structured process comprising four essential steps.
+In the development of our Trading AI, we follow a structured process comprising four essential steps:
 
 <br>
 
@@ -33,8 +33,9 @@ In the development of our Trading AI, we follow a structured process comprising 
   <summary> 📜 Get Data from S&P 500 📜</summary> 
 
   <p>
+First you must create a file called "config.py" where you will reiseign API_KEY, SECRET_KEY , OAUTH_TOKEN for Alpaca API.
 
-<a href=""> Code Link</a>
+Then use "Get_DataS&P.py". The code utilizes the yfinance library to download historical stock price data for companies listed in the S&P 500 index. The list of S&P 500 tickers is obtained from Wikipedia. The script defines a date range for the last 5 years and creates a directory to store the downloaded data. It then iterates through each S&P 500 company, downloads its historical data using yfinance, and saves it as a CSV file in the specified directory. <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/blob/master/Get_Data-S%26P.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -47,8 +48,7 @@ In the development of our Trading AI, we follow a structured process comprising 
   <summary> ♟️ Model Strategy ♟️</summary> 
 
   <p>
-
-<a href=""> Code Link</a>
+The Python script "Model_Strategy.py" is designed to construct a deep learning model for time series forecasting using historical stock price data from S&P 500 companies. Helper functions are defined for data normalization and creating windowed datasets. The main model function reads historical stock data, normalizes it, and splits it into training and validation sets. Then we define a Bidirectional LSTM model with multiple layers and compil it. The model is trained using windowed datasets, incorporating callbacks such as learning rate scheduling, early stopping, and model checkpointing. The trained model is saved as "mymodel.h5" for future use. Overall, the script showcases the construction of an effective deep learning model for time series forecasting, utilizing advanced features and callbacks for enhanced performance.<a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/blob/master/Model_Strategy.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -61,8 +61,7 @@ In the development of our Trading AI, we follow a structured process comprising 
   <summary> 🕸️ Testing the Model 🕸️</summary> 
 
   <p>
-
-<a href=""> Code Link</a>
+In the "Test_Model" script, we initiate the process by downloading time series data, performing normalization, and dividing it into distinct training and testing sets. Following this, the pre-trained deep learning model, we saved as "mymodel.h5," is loaded. Subsequently, the model is employed to generate predictions on the test dataset, and these predictions are then denormalized. The evaluation of model performance is conducted through the computation of the Mean Absolute Error (MAE) using NumPy arrays, providing insights into the accuracy of the predictions in comparison to the actual test data. <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/blob/master/Test_Model.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -73,16 +72,14 @@ In the development of our Trading AI, we follow a structured process comprising 
   <h2 align="center"> ⚡️ Lunching the model to real-time Traiding< ⚡️/h2>
   
   <summary> ⚡️ Lunching the model to real-time Traiding< ⚡️</summary> 
-
-  <p>
-
-<a href=""> Code Link</a>
+<p>
+The code "Live_Trading.py" begins by loading the pre-trained deep learning model ("mymodel.h5") to make predictions. The trading strategy is based on these predictions, with specific conditions triggering buy and sell orders. Additionally, the script includes backtesting functionality, connecting to the Alpaca API for live trading, and a schedule for running the trading strategy at regular intervals. The main execution section initiates live trading with predefined trading pairs like AAPL, SPY, MSFT, and META. The script is designed to operate continuously, running the trading strategy based on the specified time frame. <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/blob/master/Live_Trading.py"> Code Link</a>
   </p>
   <br>
 </details>
 
 <br>
 
-
+This is the end of this depository on Trading AI using TensorFlow. If you want to see more complexe projects on Trading I would invite invite you to see <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App">Full Stack Trading App</a>
 
   
