@@ -69,9 +69,9 @@ In the construction of our Trading AI we have 4steps:
 <br>
 
 <details>
-  <h2 align="center">⚡️ Lunching the model to real-time Traiding< ⚡️/h2>
+  <h2 align="center"> ⚡️ Lunching the model to real-time Traiding< ⚡️/h2>
   
-  <summary>⚡️ Lunching the model to real-time Traiding< ⚡️</summary> 
+  <summary> ⚡️ Lunching the model to real-time Traiding< ⚡️</summary> 
 
   <p>
 
